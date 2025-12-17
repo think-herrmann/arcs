@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herrmann-intl/arcs.git"
+    "url": "git+https://github.com/think-herrmann/arcs.git"
   },
   "keywords": [
   ],
@@ -31,7 +31,7 @@
   "author": "Andrew Swerlick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/herrmann-intl/arcs/issues"
+    "url": "https://github.com/think-herrmann/arcs/issues"
   },
-  "homepage": "https://github.com/herrmann-intl/arcs#readme"
+  "homepage": "https://github.com/think-herrmann/arcs#readme"
 }
