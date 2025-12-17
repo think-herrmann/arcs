@@ -1,0 +1,18 @@
+name: Publish Package
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    uses: think-herrmann/axon-core/.github/workflows/shared-publish-npm.yml@main
+    with:
+      package_name: '@think-herrmann/arcs'
+      build_command: 'npm run build'
+      skip_build: false
+      node_version: '20.x'
+      package_manager: 'npm'
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

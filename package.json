@@ -1,11 +1,19 @@
 {
-  "name": "arcs",
-  "version": "0.0.1",
+  "name": "@think-herrmann/arcs",
+  "version": "1.0.0",
   "description": "A library for drawing complex arcs",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel --presets es2015,stage-0 -d lib/ src/"
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "build": "babel --presets es2015,stage-0 -d lib/ src/"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
